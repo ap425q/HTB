@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Wed Feb  7 16:11:53 2024 as: nmap -sV -sC -oA nmap 10.129.252.221
+Host: 10.129.252.221 (10.129.252.221)	Status: Up
+Host: 10.129.252.221 (10.129.252.221)	Ports: 8080/open/tcp//http//Jetty 9.4.39.v20210325/	Ignored State: closed (999)
+# Nmap done at Wed Feb  7 16:12:17 2024 -- 1 IP address (1 host up) scanned in 23.81 seconds
